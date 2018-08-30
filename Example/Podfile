@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GFContactsRetriever_Example' do
+  pod 'GFContactsRetriever', :path => '../'
+
+  target 'GFContactsRetriever_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
