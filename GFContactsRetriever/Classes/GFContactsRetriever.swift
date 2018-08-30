@@ -85,6 +85,7 @@ public class GFContactsRetriever {
     
     /*
      * getUserContacts retrieves all the user contacts and return them as an array of dictionaries
+     * the fields parameters allows to specify which fields to get
      */
     public static func getContacts(fields:[String], completion:@escaping (_ success:Bool, _ results:[[String:Any]]) ->Void) {
         
@@ -122,6 +123,9 @@ public class GFContactsRetriever {
         }
     }
     
+    /*
+     * convenience method to get the default fields
+     */
     public static func getContacts(completion:@escaping (_ success:Bool, _ results:[[String:Any]]) ->Void) {
         getContacts(fields: defaultKeys, completion: completion)
     }
