@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2522ADD52138194300D72F56 /* GFContactsRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2522ADD42138194300D72F56 /* GFContactsRetriever.swift */; };
+		452AD9569F9D2120D5D42A57BA1615B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4BC077B20C72C10558D8FE23F5F8C75A /* Pods-GFContactsRetriever_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8643E75734432C1F103DDF4C915397B /* Pods-GFContactsRetriever_Example-dummy.m */; };
+		4E36AFE54B245D4AF3E0AFC79BE8B766 /* Pods-GFContactsRetriever_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D6D033017308D1F7F3FBA80A6D71BA /* Pods-GFContactsRetriever_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8D5018909BCB894187709D1FB78E15F /* GFContactsRetriever-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB0EDC9E7B220E5BC7E883D1CA938C0 /* GFContactsRetriever-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA67DBA16A16EC58D2DB2D1E94DA2F88 /* Pods-GFContactsRetriever_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8973AC346C19B03E0D3851B690C44F /* Pods-GFContactsRetriever_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2E2DED71C2F8759BF7D5CC0E9F28188 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DD4A921A8FD9E0843D9D602B31173A1F /* GFContactsRetriever-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C534D134B7D5DC18D808AE513930B5B6 /* GFContactsRetriever-dummy.m */; };
+		EB9FE470312E256412694E3A1FB93009 /* Pods-GFContactsRetriever_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F35E05B2137660D54985BAE711A882 /* Pods-GFContactsRetriever_Tests-dummy.m */; };
+		FA7E46F8BF8D88761E26817F20E1CF9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B51EED8F48FFB50E1901B302E7D572D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1789C83094C670317BBE36F12323ACCF;
+			remoteInfo = GFContactsRetriever;
+		};
+		DB395908B73A6E343010D6E9E56F19B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37090CA0507D1EC099ADD646C5C4C84F;
+			remoteInfo = "Pods-GFContactsRetriever_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E90A00DBFEB43EF26FA71594E638C22 /* Pods-GFContactsRetriever_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GFContactsRetriever_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		11D6D033017308D1F7F3FBA80A6D71BA /* Pods-GFContactsRetriever_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GFContactsRetriever_Example-umbrella.h"; sourceTree = "<group>"; };
+		229309B89EB8813DAA1C456FA4AEF5BD /* Pods-GFContactsRetriever_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GFContactsRetriever_Tests-resources.sh"; sourceTree = "<group>"; };
+		2522ADD42138194300D72F56 /* GFContactsRetriever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GFContactsRetriever.swift; path = GFContactsRetriever/Classes/GFContactsRetriever.swift; sourceTree = "<group>"; };
+		26610D876ED2510903FBB5F0C659F6FB /* Pods-GFContactsRetriever_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFContactsRetriever_Example.release.xcconfig"; sourceTree = "<group>"; };
+		27DC1C97515F5D24E15ECC0A3DEFB6B8 /* Pods-GFContactsRetriever_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GFContactsRetriever_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		30B68B0408BCF95AA5D42AD3C1CA62EF /* Pods-GFContactsRetriever_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GFContactsRetriever_Example.modulemap"; sourceTree = "<group>"; };
+		3B18E40B84EB54FAEC4F9929C621FA21 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		409B1E1B74145F77345158FAFF94324D /* Pods-GFContactsRetriever_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GFContactsRetriever_Example-frameworks.sh"; sourceTree = "<group>"; };
+		51DB5DE59FCDDA57A06F7D08C99E60A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B104B3F459751C0EC876F0CE395A40 /* GFContactsRetriever.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GFContactsRetriever.xcconfig; sourceTree = "<group>"; };
+		58E403829F646910C6C0B3FE3ADC9C53 /* GFContactsRetriever.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GFContactsRetriever.modulemap; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B0915DDC4D0272DB8150DBEC943739E /* GFContactsRetriever-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GFContactsRetriever-prefix.pch"; sourceTree = "<group>"; };
+		79F291686706B1C7306431E0667530C5 /* Pods_GFContactsRetriever_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFContactsRetriever_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95CB12CD6655D79061CF93B098E61B42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968F20FD5738D8E83DEA31E932A886CD /* Pods-GFContactsRetriever_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFContactsRetriever_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A0F5718D545531BB488B294E6EEF33C9 /* GFContactsRetriever.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GFContactsRetriever.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A49FF5FC4714E59E2C56010A8D03B8B2 /* GFContactsRetriever.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GFContactsRetriever.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6412239E266944738DA539C96089EA /* Pods-GFContactsRetriever_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GFContactsRetriever_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5957C7D89F45F59DFBFC1DEC2344FBA /* Pods-GFContactsRetriever_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFContactsRetriever_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8643E75734432C1F103DDF4C915397B /* Pods-GFContactsRetriever_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GFContactsRetriever_Example-dummy.m"; sourceTree = "<group>"; };
+		B8F35E05B2137660D54985BAE711A882 /* Pods-GFContactsRetriever_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GFContactsRetriever_Tests-dummy.m"; sourceTree = "<group>"; };
+		BCB0EDC9E7B220E5BC7E883D1CA938C0 /* GFContactsRetriever-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GFContactsRetriever-umbrella.h"; sourceTree = "<group>"; };
+		BCFA66401164CA4987D99486BD779BDA /* Pods-GFContactsRetriever_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GFContactsRetriever_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE72C1CD56AC40E244F10379ADDDE52B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C534D134B7D5DC18D808AE513930B5B6 /* GFContactsRetriever-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GFContactsRetriever-dummy.m"; sourceTree = "<group>"; };
+		CA8973AC346C19B03E0D3851B690C44F /* Pods-GFContactsRetriever_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GFContactsRetriever_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D49B4936C2606671490CE4139D1AC59C /* Pods-GFContactsRetriever_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GFContactsRetriever_Tests.modulemap"; sourceTree = "<group>"; };
+		E0537ADDD944311564E3E23535004177 /* Pods-GFContactsRetriever_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GFContactsRetriever_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E77F4C826FC15209512A8E710C20370D /* Pods-GFContactsRetriever_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFContactsRetriever_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EA7F6CE874BB0CAE831194C7128A4242 /* Pods_GFContactsRetriever_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFContactsRetriever_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4A9C86DB5528E0092C3572E3F925F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FBEFCB33B2FC0F9F6E92575B257DAE2C /* Pods-GFContactsRetriever_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GFContactsRetriever_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D1039D94507029E580189235E01A556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E2DED71C2F8759BF7D5CC0E9F28188 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6FA14C155AF23300D4F3C8EDDDE8F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7E46F8BF8D88761E26817F20E1CF9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F924D1DEC08FF822801A12F48D5EB5CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452AD9569F9D2120D5D42A57BA1615B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0339E61836143C61B85F5097345F59DE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A0F5718D545531BB488B294E6EEF33C9 /* GFContactsRetriever.podspec */,
+				3B18E40B84EB54FAEC4F9929C621FA21 /* LICENSE */,
+				EB4A9C86DB5528E0092C3572E3F925F8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		43212832DCCBC9AB7F19B899CBC95200 /* GFContactsRetriever */ = {
+			isa = PBXGroup;
+			children = (
+				2522ADD42138194300D72F56 /* GFContactsRetriever.swift */,
+				0339E61836143C61B85F5097345F59DE /* Pod */,
+				AFD4257DDE1837EA88EF20071FA600C9 /* Support Files */,
+			);
+			name = GFContactsRetriever;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		55F2D97DED9E5B021A015607979D52F6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43212832DCCBC9AB7F19B899CBC95200 /* GFContactsRetriever */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		73A430C2900F9B48B5FA7A0CB869F690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A49FF5FC4714E59E2C56010A8D03B8B2 /* GFContactsRetriever.framework */,
+				79F291686706B1C7306431E0667530C5 /* Pods_GFContactsRetriever_Example.framework */,
+				EA7F6CE874BB0CAE831194C7128A4242 /* Pods_GFContactsRetriever_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				55F2D97DED9E5B021A015607979D52F6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				73A430C2900F9B48B5FA7A0CB869F690 /* Products */,
+				EEDB4E1F5025B1E8A20E63F71BAC516F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AFD4257DDE1837EA88EF20071FA600C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58E403829F646910C6C0B3FE3ADC9C53 /* GFContactsRetriever.modulemap */,
+				58B104B3F459751C0EC876F0CE395A40 /* GFContactsRetriever.xcconfig */,
+				C534D134B7D5DC18D808AE513930B5B6 /* GFContactsRetriever-dummy.m */,
+				5B0915DDC4D0272DB8150DBEC943739E /* GFContactsRetriever-prefix.pch */,
+				BCB0EDC9E7B220E5BC7E883D1CA938C0 /* GFContactsRetriever-umbrella.h */,
+				BE72C1CD56AC40E244F10379ADDDE52B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GFContactsRetriever";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA0C3CC2533702743639A38F07B965AF /* Pods-GFContactsRetriever_Example */ = {
+			isa = PBXGroup;
+			children = (
+				51DB5DE59FCDDA57A06F7D08C99E60A2 /* Info.plist */,
+				30B68B0408BCF95AA5D42AD3C1CA62EF /* Pods-GFContactsRetriever_Example.modulemap */,
+				0E90A00DBFEB43EF26FA71594E638C22 /* Pods-GFContactsRetriever_Example-acknowledgements.markdown */,
+				AD6412239E266944738DA539C96089EA /* Pods-GFContactsRetriever_Example-acknowledgements.plist */,
+				B8643E75734432C1F103DDF4C915397B /* Pods-GFContactsRetriever_Example-dummy.m */,
+				409B1E1B74145F77345158FAFF94324D /* Pods-GFContactsRetriever_Example-frameworks.sh */,
+				FBEFCB33B2FC0F9F6E92575B257DAE2C /* Pods-GFContactsRetriever_Example-resources.sh */,
+				11D6D033017308D1F7F3FBA80A6D71BA /* Pods-GFContactsRetriever_Example-umbrella.h */,
+				E77F4C826FC15209512A8E710C20370D /* Pods-GFContactsRetriever_Example.debug.xcconfig */,
+				26610D876ED2510903FBB5F0C659F6FB /* Pods-GFContactsRetriever_Example.release.xcconfig */,
+			);
+			name = "Pods-GFContactsRetriever_Example";
+			path = "Target Support Files/Pods-GFContactsRetriever_Example";
+			sourceTree = "<group>";
+		};
+		EEDB4E1F5025B1E8A20E63F71BAC516F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA0C3CC2533702743639A38F07B965AF /* Pods-GFContactsRetriever_Example */,
+				F6BE4F3C860A777939F798A50136F113 /* Pods-GFContactsRetriever_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F6BE4F3C860A777939F798A50136F113 /* Pods-GFContactsRetriever_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				95CB12CD6655D79061CF93B098E61B42 /* Info.plist */,
+				D49B4936C2606671490CE4139D1AC59C /* Pods-GFContactsRetriever_Tests.modulemap */,
+				BCFA66401164CA4987D99486BD779BDA /* Pods-GFContactsRetriever_Tests-acknowledgements.markdown */,
+				27DC1C97515F5D24E15ECC0A3DEFB6B8 /* Pods-GFContactsRetriever_Tests-acknowledgements.plist */,
+				B8F35E05B2137660D54985BAE711A882 /* Pods-GFContactsRetriever_Tests-dummy.m */,
+				E0537ADDD944311564E3E23535004177 /* Pods-GFContactsRetriever_Tests-frameworks.sh */,
+				229309B89EB8813DAA1C456FA4AEF5BD /* Pods-GFContactsRetriever_Tests-resources.sh */,
+				CA8973AC346C19B03E0D3851B690C44F /* Pods-GFContactsRetriever_Tests-umbrella.h */,
+				B5957C7D89F45F59DFBFC1DEC2344FBA /* Pods-GFContactsRetriever_Tests.debug.xcconfig */,
+				968F20FD5738D8E83DEA31E932A886CD /* Pods-GFContactsRetriever_Tests.release.xcconfig */,
+			);
+			name = "Pods-GFContactsRetriever_Tests";
+			path = "Target Support Files/Pods-GFContactsRetriever_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CE79EAF6E096C95B9BEC964B8191B05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D5018909BCB894187709D1FB78E15F /* GFContactsRetriever-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE6B6526EFA8860616B74E24473E55F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA67DBA16A16EC58D2DB2D1E94DA2F88 /* Pods-GFContactsRetriever_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAC242E83356321BA763F7A39BBBEFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E36AFE54B245D4AF3E0AFC79BE8B766 /* Pods-GFContactsRetriever_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1789C83094C670317BBE36F12323ACCF /* GFContactsRetriever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA4859F07EA3B5A0926BD74B6F9A0E61 /* Build configuration list for PBXNativeTarget "GFContactsRetriever" */;
+			buildPhases = (
+				3779CFC6F8E6D5875A9EE234395BA1C1 /* Sources */,
+				F924D1DEC08FF822801A12F48D5EB5CA /* Frameworks */,
+				2CE79EAF6E096C95B9BEC964B8191B05 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFContactsRetriever;
+			productName = GFContactsRetriever;
+			productReference = A49FF5FC4714E59E2C56010A8D03B8B2 /* GFContactsRetriever.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37090CA0507D1EC099ADD646C5C4C84F /* Pods-GFContactsRetriever_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7538A5C3C2C29A92CC4AB795E5EED792 /* Build configuration list for PBXNativeTarget "Pods-GFContactsRetriever_Example" */;
+			buildPhases = (
+				410AF2FF0D78B6B7677C38B2824F34DE /* Sources */,
+				5D1039D94507029E580189235E01A556 /* Frameworks */,
+				DDAC242E83356321BA763F7A39BBBEFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C010E9BEFC17951586E0EE62DBB845B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-GFContactsRetriever_Example";
+			productName = "Pods-GFContactsRetriever_Example";
+			productReference = 79F291686706B1C7306431E0667530C5 /* Pods_GFContactsRetriever_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77CB7F4AD5B861A6137463B1F356735C /* Pods-GFContactsRetriever_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8D1A42FB7D8A446DA976929649D387 /* Build configuration list for PBXNativeTarget "Pods-GFContactsRetriever_Tests" */;
+			buildPhases = (
+				CF0C8978F240BEDA56338025CBDC3F90 /* Sources */,
+				8A6FA14C155AF23300D4F3C8EDDDE8F6 /* Frameworks */,
+				2EE6B6526EFA8860616B74E24473E55F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DFE57C5513B1A5B55EC260F5DC7D21C /* PBXTargetDependency */,
+			);
+			name = "Pods-GFContactsRetriever_Tests";
+			productName = "Pods-GFContactsRetriever_Tests";
+			productReference = EA7F6CE874BB0CAE831194C7128A4242 /* Pods_GFContactsRetriever_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 73A430C2900F9B48B5FA7A0CB869F690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1789C83094C670317BBE36F12323ACCF /* GFContactsRetriever */,
+				37090CA0507D1EC099ADD646C5C4C84F /* Pods-GFContactsRetriever_Example */,
+				77CB7F4AD5B861A6137463B1F356735C /* Pods-GFContactsRetriever_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3779CFC6F8E6D5875A9EE234395BA1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4A921A8FD9E0843D9D602B31173A1F /* GFContactsRetriever-dummy.m in Sources */,
+				2522ADD52138194300D72F56 /* GFContactsRetriever.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410AF2FF0D78B6B7677C38B2824F34DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC077B20C72C10558D8FE23F5F8C75A /* Pods-GFContactsRetriever_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0C8978F240BEDA56338025CBDC3F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9FE470312E256412694E3A1FB93009 /* Pods-GFContactsRetriever_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DFE57C5513B1A5B55EC260F5DC7D21C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GFContactsRetriever_Example";
+			target = 37090CA0507D1EC099ADD646C5C4C84F /* Pods-GFContactsRetriever_Example */;
+			targetProxy = DB395908B73A6E343010D6E9E56F19B7 /* PBXContainerItemProxy */;
+		};
+		C010E9BEFC17951586E0EE62DBB845B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GFContactsRetriever;
+			target = 1789C83094C670317BBE36F12323ACCF /* GFContactsRetriever */;
+			targetProxy = B51EED8F48FFB50E1901B302E7D572D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		281538D89DEEEF65FF3A9C04C4327488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5957C7D89F45F59DFBFC1DEC2344FBA /* Pods-GFContactsRetriever_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GFContactsRetriever_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GFContactsRetriever_Tests/Pods-GFContactsRetriever_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D7B31FDC50AE0F052ED27CE1189EB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968F20FD5738D8E83DEA31E932A886CD /* Pods-GFContactsRetriever_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GFContactsRetriever_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GFContactsRetriever_Tests/Pods-GFContactsRetriever_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B705277CFBED573AF0FF7C48E485455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26610D876ED2510903FBB5F0C659F6FB /* Pods-GFContactsRetriever_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GFContactsRetriever_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GFContactsRetriever_Example/Pods-GFContactsRetriever_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A7659F87D7854882D1D66770F5DED72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58B104B3F459751C0EC876F0CE395A40 /* GFContactsRetriever.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GFContactsRetriever/GFContactsRetriever-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GFContactsRetriever/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GFContactsRetriever/GFContactsRetriever.modulemap";
+				PRODUCT_MODULE_NAME = GFContactsRetriever;
+				PRODUCT_NAME = GFContactsRetriever;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF6A823852F76FA43356157CCB007A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77F4C826FC15209512A8E710C20370D /* Pods-GFContactsRetriever_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GFContactsRetriever_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GFContactsRetriever_Example/Pods-GFContactsRetriever_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B47C695A1D68D8D8A876F5DF4A3AE21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58B104B3F459751C0EC876F0CE395A40 /* GFContactsRetriever.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GFContactsRetriever/GFContactsRetriever-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GFContactsRetriever/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GFContactsRetriever/GFContactsRetriever.modulemap";
+				PRODUCT_MODULE_NAME = GFContactsRetriever;
+				PRODUCT_NAME = GFContactsRetriever;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7538A5C3C2C29A92CC4AB795E5EED792 /* Build configuration list for PBXNativeTarget "Pods-GFContactsRetriever_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6A823852F76FA43356157CCB007A84 /* Debug */,
+				6B705277CFBED573AF0FF7C48E485455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA4859F07EA3B5A0926BD74B6F9A0E61 /* Build configuration list for PBXNativeTarget "GFContactsRetriever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47C695A1D68D8D8A876F5DF4A3AE21D /* Debug */,
+				A7659F87D7854882D1D66770F5DED72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD8D1A42FB7D8A446DA976929649D387 /* Build configuration list for PBXNativeTarget "Pods-GFContactsRetriever_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281538D89DEEEF65FF3A9C04C4327488 /* Debug */,
+				4D7B31FDC50AE0F052ED27CE1189EB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

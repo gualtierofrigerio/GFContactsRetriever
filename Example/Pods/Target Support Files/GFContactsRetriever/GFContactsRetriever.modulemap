@@ -1,0 +1,6 @@
+framework module GFContactsRetriever {
+  umbrella header "GFContactsRetriever-umbrella.h"
+
+  export *
+  module * { export * }
+}

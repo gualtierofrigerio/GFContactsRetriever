@@ -1,0 +1,16 @@
+PODS:
+  - GFContactsRetriever (0.1.0)
+
+DEPENDENCIES:
+  - GFContactsRetriever (from `../`)
+
+EXTERNAL SOURCES:
+  GFContactsRetriever:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GFContactsRetriever: 57a5412d8a4ff45d5d5527b72841fe50b920512e
+
+PODFILE CHECKSUM: bb219cd18b1a04e4ae47ca6f15130e98ffc2b1d6
+
+COCOAPODS: 1.5.3

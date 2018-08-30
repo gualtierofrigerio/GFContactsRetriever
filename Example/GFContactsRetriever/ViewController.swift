@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GFContactsRetriever
 
 class ViewController: UIViewController {
 

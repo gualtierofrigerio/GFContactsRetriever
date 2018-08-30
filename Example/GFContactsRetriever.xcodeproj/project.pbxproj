@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2522ADD72138198E00D72F56 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2522ADD62138198E00D72F56 /* Contacts.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		1BDC783FFEDA5F516D7F8A57 /* Pods-GFContactsRetriever_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFContactsRetriever_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFContactsRetriever_Tests/Pods-GFContactsRetriever_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C84606789DEE806FF7E26FC /* Pods-GFContactsRetriever_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFContactsRetriever_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFContactsRetriever_Example/Pods-GFContactsRetriever_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2522ADD62138198E00D72F56 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		3C5AA170C7CD471434CE2ED6 /* Pods_GFContactsRetriever_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFContactsRetriever_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* GFContactsRetriever_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFContactsRetriever_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,10 +43,10 @@
 		607FACE51AFB9204008FA782 /* GFContactsRetriever_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFContactsRetriever_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6A5EB700D68193536B21FC33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		6E966AC718F237F0203AE29B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6A5EB700D68193536B21FC33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6E966AC718F237F0203AE29B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		96635FDB0585466993DFBB5C /* Pods-GFContactsRetriever_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFContactsRetriever_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFContactsRetriever_Tests/Pods-GFContactsRetriever_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9C7C0C0E954B690B98983A6C /* GFContactsRetriever.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GFContactsRetriever.podspec; path = ../GFContactsRetriever.podspec; sourceTree = "<group>"; };
+		9C7C0C0E954B690B98983A6C /* GFContactsRetriever.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GFContactsRetriever.podspec; path = ../GFContactsRetriever.podspec; sourceTree = "<group>"; };
 		A7FB4B3FB792000088C5D123 /* Pods_GFContactsRetriever_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFContactsRetriever_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15DD25A6B0DB880D92E1688 /* Pods-GFContactsRetriever_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFContactsRetriever_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFContactsRetriever_Example/Pods-GFContactsRetriever_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2522ADD72138198E00D72F56 /* Contacts.framework in Frameworks */,
 				E0B360746E15617981F9BA18 /* Pods_GFContactsRetriever_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +75,7 @@
 		2726B6E3A6EB0184DF187A35 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2522ADD62138198E00D72F56 /* Contacts.framework */,
 				A7FB4B3FB792000088C5D123 /* Pods_GFContactsRetriever_Example.framework */,
 				3C5AA170C7CD471434CE2ED6 /* Pods_GFContactsRetriever_Tests.framework */,
 			);

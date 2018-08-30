@@ -1,0 +1,22 @@
+{
+  "name": "GFContactsRetriever",
+  "version": "0.1.0",
+  "summary": "A short description of GFContactsRetriever.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Gualtiero Frigerio/GFContactsRetriever",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Gualtiero Frigerio": "gualtiero.frigerio@epress.it"
+  },
+  "source": {
+    "git": "https://github.com/Gualtiero Frigerio/GFContactsRetriever.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GFContactsRetriever/Classes/**/*"
+}
