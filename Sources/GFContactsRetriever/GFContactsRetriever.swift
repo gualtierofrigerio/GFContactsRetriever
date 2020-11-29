@@ -8,14 +8,10 @@
 import Foundation
 import Contacts
 
-/*
- * GFContactRetriever is a class containing a static function to retrive user contacts
- * and return them as an array of dictionaries, making it easy to pass them to an HTML file
- * or to display them with a native UI
- *
- * Requires  Contacts framework
- */
-
+/// GFContactRetriever is a class containing a static function to retrive user contacts
+/// and return them as an array of dictionaries, making it easy to pass them to an HTML file
+/// or to display them with a native UI
+/// Requires  Contacts framework
 @available(iOS 9.0, *)
 public class GFContactsRetriever {
     
@@ -26,9 +22,9 @@ public class GFContactsRetriever {
                               CNContactImageDataKey,
                               CNContactPhoneNumbersKey]
     
-    /*
-     * utility function to get the string value for each field in CNContact
-     */
+    /// utility function to get the string value for each field in CNContact
+    /// - Parameter field: The field in CNContact
+    /// - Returns: The optional value of the field in CNContacs
     static func valueForContactField(_ field:Any) -> Any? {
         if let fieldString = field as? String {
             return fieldString
@@ -83,10 +79,10 @@ public class GFContactsRetriever {
         return nil
     }
     
-    /*
-     * getUserContacts retrieves all the user contacts and return them as an array of dictionaries
-     * the fields parameters allows to specify which fields to get
-     */
+    /// Retrieves all the user contacts and return them as an array of dictionaries
+    /// - Parameters:
+    ///   - fields: Specify which fields to get from contacss
+    ///   - completion: The completion handler with an array of dictionaries
     public static func getContacts(fields:[String], completion:@escaping (_ success:Bool, _ results:[[String:Any]]) ->Void) {
         
         let contactStore = CNContactStore()
@@ -122,10 +118,9 @@ public class GFContactsRetriever {
             }
         }
     }
-    
-    /*
-     * convenience method to get the default fields
-     */
+
+    /// Convenience method to get the default fields
+    /// - Parameter completion: The completion handler with a Bool value for success and the array of contacts
     public static func getContacts(completion:@escaping (_ success:Bool, _ results:[[String:Any]]) ->Void) {
         getContacts(fields: defaultKeys, completion: completion)
     }
