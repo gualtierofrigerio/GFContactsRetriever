@@ -83,13 +83,13 @@ public class GFContactsRetriever {
     /// - Parameters:
     ///   - fields: Specify which fields to get from contacss
     ///   - completion: The completion handler with an array of dictionaries
-    public static func getContacts(fields:[String], completion:@escaping (_ success:Bool, _ results:[[String:Any]]) ->Void) {
+    public static func getContacts(fields:[String], completion:@escaping (_ results:Result<[[String:Any]], Error>) ->Void) {
         
         let contactStore = CNContactStore()
         contactStore.requestAccess(for: CNEntityType.contacts) { (granted, error) in
             guard granted == true else {
-                print("cannot have access to user contacts")
-                completion(false, [])
+                let error = makeError(withMessage: "cannot get access to user contacts")
+                completion(.failure(error))
                 return
             }
             
@@ -110,18 +110,26 @@ public class GFContactsRetriever {
                     }
                     contactsToReturn.append(newContact)
                 }
-                completion(true, contactsToReturn)
+                completion(.success(contactsToReturn))
             }
             catch {
-                print("error while retrieving contacts")
-                completion(false, [])
+                let error = makeError(withMessage: "cannot retrieve contacts")
+                completion(.failure(error))
             }
         }
     }
 
     /// Convenience method to get the default fields
     /// - Parameter completion: The completion handler with a Bool value for success and the array of contacts
-    public static func getContacts(completion:@escaping (_ success:Bool, _ results:[[String:Any]]) ->Void) {
+    public static func getContacts(completion:@escaping (_ results:Result<[[String:Any]], Error>) ->Void) {
         getContacts(fields: defaultKeys, completion: completion)
+    }
+    
+    // MARK: - Private
+    static func makeError(withMessage message:String) -> Error {
+        let error = NSError(domain: "GFContactsRetriever",
+                            code: 0,
+                            userInfo: ["Message" : message])
+        return error
     }
 }
